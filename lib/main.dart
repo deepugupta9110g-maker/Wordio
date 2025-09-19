@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:wardiooo/models/user_settings.dart';
 import 'package:wardiooo/viewmodels/goal_setting_viewmodel.dart';
 import 'package:wardiooo/viewmodels/language_selection_viewmodel.dart';
 import 'package:wardiooo/views/onboarding/language_selection_screen.dart';
 import 'package:provider/provider.dart';
+import 'package:wardiooo/services/user_settings_service.dart';
 
 void main() {
   runApp(const MyApp());
